@@ -1,0 +1,122 @@
+/* Overall Style */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #FFFFFF;
+}
+
+form {
+    width: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 5rem;
+    color: #5C3DD5;
+}
+
+footer {
+    text-align: center;
+    background-color: #5C3DD5;
+    color: #FFFFFF;
+    padding: 3rem;
+}
+
+h2 {
+    max-width: 40%;
+    text-align: center;
+}
+
+/* Style for Login */
+
+.loginHeader {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.loginFoot {
+    margin-top: 14rem;
+}
+/* Style for Product Page */
+
+svg:hover {
+    cursor: pointer;
+}
+
+.prodPicColumn {
+    width: 80rem;
+}
+.productPic {
+    width: 100%;
+    max-width: 600px;
+}
+.productBody {
+    background-color: #D3D1F1;
+}
+
+.productTitle {
+    font-size: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    color: #5C3DD5;
+}
+
+.productPara {
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+/* Style for ToDo List */
+.taskManager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskTitle {
+    color: #5C3DD5;
+}
+
+.taskManagerDiv {
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+}
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskFoot {
+    margin-top: 4rem;
+}
+ul.taskList li{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 650px) {
+    form {
+        width: 80%;
+    }
+
+    .mainProductPage {
+        flex-direction: column;
+    }
+    .prodPicColumn {
+        width: 100%;
+    }
+
+    .loginFoot {
+        margin-top: 5rem;
+    }
+
+    .taskManagerDiv {
+        font-size: 1rem;
+    }
+
+    ul.taskList li{
+        font-size: 1rem;
+    }
+  }
